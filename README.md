@@ -47,18 +47,21 @@ Promoting DiamondEdge Analytics involves several realistic operational and marke
 ---
 ## Execution Guide (Running the Pipeline)
 1. Fetch Raw Data
-
+```
 Bash
 python3 src/ingestion/ingestion.py
+```
 2. Process Data via PySpark
-
+```
 Bash
 python3 src/processing/processing_spark.py
-3. Start the API Server
+```
 
+3. Start the API Server
+```
 Bash
 uvicorn src.delivery.api:app --reload
-
+```
 ---
 
 ## Part 2: Project Structure & Setup
