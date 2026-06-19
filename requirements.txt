@@ -1,0 +1,4 @@
+pybaseball
+pandas
+pyspark
+scipy
