@@ -2,3 +2,7 @@ pybaseball
 pandas
 pyspark
 scipy
+fastapi
+uvicorn
+pyarrow
+fastparquet
